@@ -1,0 +1,10 @@
+﻿/* css 전체를 불러옴 */
+@import url('reset.css');   /*초기화 영역으로 가장 먼저 처리*/
+@import url('global.css');  /*전체 영역으로 두번째로 처리*/
+@import url('page.css');    /*한 페이지 영역으로 마지막으로 처리*/
+
+/*Font SET*/
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&subset=latin-ext,vietnamese');
+/*font-family: 'Source Sans Pro', sans-serif;*/
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+/*font-family: 'Jeju Gothic', serif;*/

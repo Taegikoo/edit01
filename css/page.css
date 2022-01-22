@@ -1,0 +1,312 @@
+﻿/*상단*/
+header {
+    width: 100%;
+    background-color: #000;
+    height: 85px;
+}
+/*상단 로고*/
+header ul {padding-left: 10%;}
+header ul li:nth-child(1) > a {
+    background: url(../images/Netflix-logo.png) 0 20px no-repeat;
+    background-size: 150px 45px;
+    text-indent: -9999px;
+    width: 150px;
+    height: 72px;
+}
+/*상단 계정만들기 위치*/
+header ul li:nth-child(2) {
+    text-align: right;
+    padding-right: 10%;
+    padding-bottom: 10%;
+}
+header ul li:nth-child(2) a {
+    position: relative;
+    bottom: 35px;
+    display: inline-block;
+}
+header ul li:nth-child(2) a:hover {color: #e2282f;}
+/*메인 1페이지*/
+section.page1 div {
+    padding: 30% 0;
+    background-color: #252525;
+}
+/*메인 1페이지 가입하기*/
+section.page1 div ul li:nth-child(1) {
+    border: 20px #fff solid;
+    background: #fff;
+    cursor: pointer;
+}
+section.page1 div ul li:nth-child(1) a {
+    color: #333;
+    transition: none;
+    font-size: 1em;
+}
+section.page1 div ul li:nth-child(2) a {
+    transition: none;
+    font-size: 1em;
+}
+section.page1 div ul li:nth-child(1):hover,
+section.page1 div ul li:nth-child(1):hover a {
+    background-color: #ff0411;
+    border-color: #ff0411;
+    color: #fff;
+}
+/*메인 1페이지 로그인*/
+section.page1 div ul li:nth-child(2) {
+    border: 20px #e00712 solid;
+    background: #e00712;
+    color: #fff;
+    cursor: pointer;
+}
+section.page1 div ul li:nth-child(2):hover,
+section.page1 div ul li:nth-child(2):hover a {
+    background-color: #ff0411;
+    border-color: #ff0411;
+    color: #fff;
+}
+/*메인 2페이지 배경*/
+section.page2 div {
+    background: url(../images/Netflix-background.png) 0 0 no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/*메인 2페이지 제목*/
+section.page2 div h2 {padding-top: 10%;}
+section.page2 div h4 {padding: 15px 5%;}
+/*메인 2페이지 이미지*/
+section.page2 div p img {max-width: 70%;}
+
+/*메인 3페이지 제목*/
+section.page3 div h2 {color: #e00712;}
+/*메인 3페이지 부제*/
+section.page3 div h4 {
+    color: #e00;
+    padding-bottom: 5%;
+}
+/*메인 3페이지*/
+section.page3 div {
+    padding: 15% 0 10%;
+    background-color: #fff;
+}
+/*메인 3페이지 테이블*/
+section.page3 div table {
+    display: inline-block;
+    color: #e00712;
+    width: 90%;
+}
+/*메인 3페이지 테이블 이미지*/
+section.page3 div table tr:nth-child(1) td img {
+    max-width: 100%;
+    vertical-align:middle;
+    margin: 0 auto;
+}
+section.page3 div table tr td {width: 35%;}
+/*메인 3페이지 목록 제목*/
+section.page3 div table tr:nth-child(2) {
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 2.5;
+}
+/*메인 3페이지 목록 부제*/
+section.page3 div table tr:nth-child(3) {
+    font-size: 0.8em;
+    line-height: 2;
+    padding-bottom: 5%;
+}
+
+/*메인 4페이지*/
+section.page4 div {
+    padding: 10% 0;
+    max-width: 100%;
+    background-color: #555;
+}
+/*메인 4페이지 테이블*/
+section.page4 div table {
+    margin: 0% auto;
+
+    font-size: 0.7em;
+}
+/*메인 4페이지 테이블 항목*/
+section.page4 div table tr:nth-child(1) {font-weight: bold;}
+section.page4 div table tr th {
+    text-align: right;
+    color: #fff;
+    padding: 1em;
+}
+/*메인 귀배너*/
+body > nav a {
+    background-color: #e00712;
+    position: fixed;
+    padding: 1%;
+    top: 95%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+body > nav a:hover {
+    background-color: #ff0411;
+    color: #fff;
+}
+/*메인 하단*/
+footer {
+    background-color: #000;
+    line-height: 2;
+    padding: 30px 0 90px;
+	clear: both;
+}
+footer h3 {
+    margin: 0 2%;
+    padding: 3% 0 2%;
+}
+/*메인 하단 제목*/
+footer h3 a {
+    font-size: 1.6em;
+    display: inline-block;
+}
+/*메인 하단 테이블*/
+footer table {
+    margin: 0 auto 10%;
+    text-align: left;
+    line-height: 3;
+}
+footer table tr td {line-height: 1;}
+footer table tr td a {
+    color: #aaa;
+    display: inline-block;
+    line-height: 3;
+}
+footer i, footer ol:nth-child(2) {font-size: 0.7em;}
+
+
+/*다음페이지 배경*/
+.wrapper {background: #bbb;}
+/*다음페이지 배경 어둡게*/
+.wrapper .wrap {background-color: rgba(0,0,0,0.3);}
+/*다음페이지 폼*/
+.wrapper .wrap div > a:nth-child(1) {text-indent: -9999px;}
+.wrapper .wrap div label input {
+    width: 70%;
+    padding: 2%;
+}
+/*다음페이지 로그인*/
+.wrapper .wrap div .login {
+    border: 2px solid #e30813;
+    background-color: #e30813;
+    color: #fff;
+    width: 70%;
+    margin: 5% 13% 0;
+    padding: 2% 1.5%;
+    font-size: 1.5em;
+}
+/*다음페이지 페북 로그인*/
+.wrapper .wrap div a.facebook {
+    border: 2px solid #365899;
+    background-color: #365899;
+    color: #fff;
+    width: 73%;
+    margin: 1% 0 0 13%;
+    padding: 2% 0;
+    font-size: 24px;
+}
+.wrapper .wrap div a.facebook:hover {
+    border: 2px solid #4267b2;
+    background-color: #4267b2;
+}
+/*다음페이지 구글 로그인*/
+.wrapper .wrap div a.google {
+    border: 2px solid #cf4a33;
+    background-color: #cf4a33;
+    color: #fff;
+    width: 73%;
+    margin: 1% 0 5% 13%;
+    padding: 2% 0;
+    position: relative;
+    font-size: 24px;
+}
+.wrapper .wrap div a.google:hover {
+    border: 2px solid #ea4335;
+    background-color: #ea4335;
+}
+/*다음페이지 비번찾기, 가입하기*/
+.wrapper .wrap div a.pwd,
+.wrapper .wrap div a.join {
+    text-align: left;
+    margin: 0 0 3% 13%;
+    font-size: 0.8em;
+}
+/*다음페이지 하단*/
+.wrapper .wrap footer ol li a:nth-child(1) {margin-bottom: 10%;}
+.wrapper .wrap footer ol li:nth-child(2) {font-size: 0.5em;}
+
+/*PC 페이지*/
+@media screen and (min-width:768px) {
+    /*1페이지 여백*/
+    section.page1 div {padding: 12% 0 16%;}
+    section.page1 h4 {padding-bottom: 5%;}
+    section.page1 div ul li:nth-child(1) a,
+    section.page1 div ul li:nth-child(2) a {font-size: 1.2em;}
+    /*2페이지 크기*/
+    section.page2 div {height: 65em ;}
+    /*3페이지 테이블*/
+    section.page3 div table {
+        width: 85%;
+        margin: 3% auto;
+    }
+    section.page3 div table tr:nth-child(2) {font-size: 1.6em;}
+    section.page3 div table tr:nth-child(3) {font-size: 1.2em;}
+    /*4페이지 테이블*/
+    section.page4 div table {
+        width: 75%;
+        font-size: 1.5em;
+        margin: 5% 20% 0 auto;
+    }
+    /*하단*/
+    footer h3 {padding: 4% 0 2%;}
+    footer table {
+        width: 45%;
+        margin: 0 30% 5%;
+    }
+    footer i, footer ol:nth-child(2) {font-size: 1em;}
+    /*다음페이지 배경*/
+    .wrapper {
+        background: url(../images/Netflix-join.jpg) 0 0 no-repeat;
+        background-size: cover;
+    }
+    /*다음페이지 폼*/
+    .wrapper .wrap > div {
+        display: inline-block;
+        margin: 6% 40% 14% 0;
+        width: 500px;
+        height: 600px;
+        background-color: rgba(255,255,255,0.5);
+    }
+    /*다음페이지 로고*/
+    .wrapper .wrap div > a:nth-child(1) {
+        background: url(../images/Netflix-logo.png) 0 20px no-repeat;
+        background-size: 100% 75%;
+        text-indent: -9999px;
+        width: 45%;
+        height: 15%;
+        margin: 0 auto;
+        padding: 3% 0;
+    }
+    /*다음페이지 아이디, 비밀번호*/
+    .wrapper .wrap div label input {
+        margin: 0.3%;
+        padding: 1.5%;
+        font-size: 1.5em;
+        width: 70%;
+    }
+    .wrapper .wrap div a.login:hover {
+        border: 2px solid #f40612;
+        background-color: #f40612;
+    }
+    /*다음페이지 하단*/
+    .wrapper .wrap footer ol {display: inline-block;}
+    .wrapper .wrap footer ol li:nth-child(2) {font-size: 1em;}
+    /*다음페이지 하단 여백*/
+    .wrapper .wrap footer ol li a:nth-child(1) {
+	    font-size: 1.6em;
+	    margin-bottom: 10%;
+    }
+}
